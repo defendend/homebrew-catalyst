@@ -1,6 +1,6 @@
 class Catalyst < Formula
   desc "AI-powered coding agent CLI with multi-provider LLM support"
-  homepage "https://github.com/defendend/catalyst"
+  homepage "https://github.com/defendend/catalyst-releases"
   license "MIT"
   version "1.0.0"
 

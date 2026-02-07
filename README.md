@@ -29,5 +29,5 @@ catalyst -p ollama
 
 ## More Information
 
-- [GitHub Repository](https://github.com/defendend/catalyst)
-- [Full Documentation](https://github.com/defendend/catalyst#readme)
+- [Download Binaries](https://github.com/defendend/catalyst-releases/releases)
+- [Full Documentation](https://github.com/defendend/catalyst-releases#readme)

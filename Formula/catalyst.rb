@@ -2,21 +2,21 @@ class Catalyst < Formula
   desc "AI-powered coding agent CLI with multi-provider LLM support"
   homepage "https://github.com/defendend/catalyst-releases"
   license "MIT"
-  version "1.1.0"
+  version "1.2.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/defendend/catalyst-releases/releases/download/v1.1.0/catalyst-v1.1.0-darwin-arm64.tar.gz"
-      sha256 "2c734de7d23308a92f00b42c360733c55c850f765a9c96a8af9b43714bf4cec9"
+      url "https://github.com/defendend/catalyst-releases/releases/download/v1.2.1/catalyst-v1.2.1-darwin-arm64.tar.gz"
+      sha256 "2933eda92715d97165e23094eb38c30a05f8f7881ee2b3d1f24056bccf932417"
     else
-      url "https://github.com/defendend/catalyst-releases/releases/download/v1.1.0/catalyst-v1.1.0-darwin-x86_64.tar.gz"
-      sha256 "fb6b2b5e76233782753927c1628be0e5622163aec07a53991ae6752627e2d993"
+      url "https://github.com/defendend/catalyst-releases/releases/download/v1.2.1/catalyst-v1.2.1-darwin-x86_64.tar.gz"
+      sha256 "a95f39e102f67a10267c4337d43a6a50a3370be360f8627f5fae08815a62689a"
     end
   end
 
   on_linux do
-    url "https://github.com/defendend/catalyst-releases/releases/download/v1.1.0/catalyst-v1.1.0-linux-x86_64.tar.gz"
-    sha256 "218b882462d5a0a826665d34059429372cbded6a33ad48207d69b8f74295d348"
+    url "https://github.com/defendend/catalyst-releases/releases/download/v1.2.1/catalyst-v1.2.1-linux-x86_64.tar.gz"
+    sha256 "36c693851676535cdf08fbe1d133f2daf85a060e5da33904961c8b964e7532b6"
   end
 
   def install
